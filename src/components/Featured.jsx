@@ -7,7 +7,6 @@ import Link from 'next/link';
 const Featured = ({ data }) => {
 
 
-    // const animalData = use(data);
     return (
         <div className='bg-gray-100 text-center items-center mt-10 mb-8'>
             <button className='text-[#104216f6] bg-pink-100 p-2 rounded-3xl font-semibold text-sm mb-2'>TOP PICKS</button>
