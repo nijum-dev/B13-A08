@@ -1,0 +1,82 @@
+
+[
+  {
+    "id": 1,
+    "name": "Deshi Shahi Cow",
+    "type": "Cow",
+    "breed": "Local Deshi",
+    "price": 120000,
+    "weight": 280,
+    "age": 3,
+    "location": "Bogura",
+    "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
+    "image": "https://i.ibb.co.com/rG0bZmQ6/boro-goru.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 2,
+    "name": "Sahiwal Dairy Cow",
+    "type": "Cow",
+    "breed": "Sahiwal",
+    "price": 150000,
+    "weight": 350,
+    "age": 4,
+    "location": "Rajshahi",
+    "description": "High milk producing Sahiwal cow.",
+    "image": "https://i.ibb.co.com/MkwKDb0c/sahiwal-bull.jpg",
+    "category": "Large Animal"
+  },
+  {
+    "id": 3,
+    "name": "Black Bengal Goat",
+    "type": "Goat",
+    "breed": "Black Bengal",
+    "price": 18000,
+    "weight": 25,
+    "age": 2,
+    "location": "Kushtia",
+    "description": "Famous Black Bengal goat, খুবই সুস্থ ও শক্তিশালী।",
+    "image": "https://i.ibb.co.com/ZRdtqpMY/black-bangal-goat-3.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 4,
+    "name": "Jamunapari Goat",
+    "type": "Goat",
+    "breed": "Jamunapari",
+    "price": 35000,
+    "weight": 40,
+    "age": 3,
+    "location": "Mymensingh",
+    "description": "Large size Jamunapuri goat, suitable for breeding and meat.",
+    "image": "https://i.ibb.co/jvqJxTYR/white-chagol.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 5,
+    "name": "Deshi Sheep",
+    "type": "Sheep",
+    "breed": "Local",
+    "price": 20000,
+    "weight": 30,
+    "age": 2,
+    "location": "Dinajpur",
+    "description": "Healthy deshi sheep, ভালো মানের মাংসের জন্য উপযুক্ত।",
+    "image": "https://i.ibb.co.com/RpSBWWVy/desi-sheep-5.jpg",
+    "category": "Small Animal"
+  },
+  {
+    "id": 6,
+    "name": "Hybrid Bull",
+    "type": "Cow",
+    "breed": "Friesian Cross",
+    "price": 200000,
+    "weight": 500,
+    "age": 5,
+    "location": "Dhaka",
+    "description": "Big size hybrid bull, perfect for Qurbani and farming.",
+    "image": "https://i.ibb.co.com/LDfrcpNq/hybrid-bull-6.jpg",
+    "category": "Large Animal"
+  }
+]
+
