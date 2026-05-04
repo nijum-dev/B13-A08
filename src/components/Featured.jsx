@@ -44,7 +44,7 @@ const Featured = ({ data }) => {
               </div>
             ))}
         </div>
-//featured section 
+
 
     );
 };
