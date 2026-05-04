@@ -1,3 +1,5 @@
+import fs from 'fs';
+import path from 'path';
 import Breeds from '@/components/Breeds';
 import BrowseAnimal from '@/components/Browse';
 import Featured from '@/components/Featured';
@@ -7,18 +9,29 @@ import Tips from '@/components/Tips';
 import React from 'react';
 
 const fetchData = async () => {
-   const res = await fetch('http://localhost:3000/animal.json');
-    return res.json();
+    try {
+        const filePath = path.join(process.cwd(), 'public', 'animal.json');
+        if (fs.existsSync(filePath)) {
+            const fileData = fs.readFileSync(filePath, 'utf8');
+            return JSON.parse(fileData);
+        }
+        return [];
+    } catch (e) {
+        console.error("Error reading animal.json:", e);
+        return [];
+    }
 }
 
 const page  = async () => {
+  const data = await fetch("http://localhost:3000/animal.json",{cache:"no-store"})
 
-  const data =await fetchData();
+  const animal = await data.json()
+  console.log(animal);
 
   return (
     <div>
       <Hero></Hero>
-      <Featured data={data}></Featured>
+      <Featured data={animal}></Featured>
       <Tips></Tips>
       <Breeds></Breeds>
       <BrowseAnimal></BrowseAnimal>

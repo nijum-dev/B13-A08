@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaFaceAngry, FaX } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
@@ -40,6 +42,10 @@ const Footer = () => {
     <a className="link link-hover text-gray-400">Dhaka, Bangladesh</a>
     <a className="link link-hover text-gray-400">+880 1700-000000</a>
     <a className="link link-hover text-gray-400">Sat–Thu: 9AM–6PM</a>
+    <div className='flex gap-3'><FaInstagram className='text-white'/>
+    <FaFacebook className='text-white'/>
+    <FaX className='text-white'/>
+    </div>
   </nav>
 </footer>
         </div>

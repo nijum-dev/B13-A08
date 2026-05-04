@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import cow from '../hero goru.jpg'
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -19,7 +20,9 @@ const Hero = () => {
               Explore premium, healthy and verified livestock from <br /> trusted farmers across Bangladesh. Book your Qurbani <br /> animal with confidence.
             </p>
             <div className=" flex gap-3">
-              <button className="btn bg-[#104216f6] text-white">Browse Animals</button>
+              <Link href="/animals">
+                <button className="btn bg-[#104216f6] text-white cursor-pointer">Browse Animals</button>
+              </Link>
               <button className="btn bg-[#104216f6] text-white">Get Started free</button>
             </div>
 

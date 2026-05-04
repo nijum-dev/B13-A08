@@ -11,7 +11,9 @@
     "location": "Bogura",
     "description": "Healthy deshi cow suitable for Qurbani. Well fed with natural food.",
     "image": "https://i.ibb.co.com/rG0bZmQ6/boro-goru.jpg",
-    "category": "Large Animal"
+    "category": "Large Animal",
+    "rating": 4.8,
+    "seller": "Bogura Cattle Hub"
   },
   {
     "id": 2,
@@ -24,7 +26,9 @@
     "location": "Rajshahi",
     "description": "High milk producing Sahiwal cow.",
     "image": "https://i.ibb.co.com/MkwKDb0c/sahiwal-bull.jpg",
-    "category": "Large Animal"
+    "category": "Large Animal",
+    "rating": 4.9,
+    "seller": "Rajshahi Livestock"
   },
   {
     "id": 3,
@@ -37,7 +41,9 @@
     "location": "Kushtia",
     "description": "Famous Black Bengal goat, খুবই সুস্থ ও শক্তিশালী।",
     "image": "https://i.ibb.co.com/ZRdtqpMY/black-bangal-goat-3.jpg",
-    "category": "Small Animal"
+    "category": "Small Animal",
+    "rating": 4.7,
+    "seller": "Kushtia Goat Farm"
   },
   {
     "id": 4,
@@ -50,7 +56,9 @@
     "location": "Mymensingh",
     "description": "Large size Jamunapuri goat, suitable for breeding and meat.",
     "image": "https://i.ibb.co/jvqJxTYR/white-chagol.jpg",
-    "category": "Small Animal"
+    "category": "Small Animal",
+    "rating": 4.6,
+    "seller": "Mymensingh Agro"
   },
   {
     "id": 5,
@@ -63,7 +71,9 @@
     "location": "Dinajpur",
     "description": "Healthy deshi sheep, very high quality meat",
     "image": "https://i.ibb.co.com/RpSBWWVy/desi-sheep-5.jpg",
-    "category": "Small Animal"
+    "category": "Small Animal",
+    "rating": 4.5,
+    "seller": "Dinajpur Sheep Care"
   },
   {
     "id": 6,
@@ -76,7 +86,9 @@
     "location": "Dhaka",
     "description": "Big size hybrid bull, perfect for Qurbani and farming.",
     "image": "https://i.ibb.co.com/LDfrcpNq/hybrid-bull-6.jpg",
-    "category": "Large Animal"
+    "category": "Large Animal",
+    "rating": 4.9,
+    "seller": "Dhaka Cattle Mart"
   }
 ]
 
