@@ -10,8 +10,8 @@ const Hero = () => {
           <Image className='h-100 w-80' src={cow} height={200} width={400} alt='cow route'  >
           </Image>
           <div>
-            <button className='text-[#c89831cf] border rounded-3xl p-2 font-bold animate__animated animate__swing'>🌙 Eid ul-Ajha Special</button>
-            <h1 className="text-5xl font-bold text-white ">Find Your Perfect <br />
+            <button className='text-[#c89831cf] border rounded-3xl p-2 font-bold animate__animated animate__swing'>🌙 Eid ul-Adha Special</button>
+            <h1 className="text-5xl font-bold text-white ">Find Your Perfect <br/>
               <span className='text-[#C89731]'>Qurbani Animal</span>
               <br />
               This Eid</h1>
