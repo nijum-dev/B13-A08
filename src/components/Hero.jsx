@@ -2,12 +2,13 @@ import React from 'react';
 import Image from 'next/image';
 import cow from '../hero goru.jpg'
 
+
 const Hero = () => {
   return (
     <div>
       <div className="hero bg-[#104216f6] min-h-screen">
         <div className="hero-content flex-col lg:flex-row gap-20">
-          <Image className='h-100 w-80' src={cow} height={200} width={400} alt='cow rou'  >
+          <Image className='h-100 w-80' src={cow} height={200} width={400} alt='cow route'  >
           </Image>
           <div>
             <button className='text-[#c89831cf] border rounded-3xl p-2 font-bold animate__animated animate__swing'>🌙 Eid ul-Adha Special</button>
