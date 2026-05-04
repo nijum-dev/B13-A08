@@ -33,7 +33,7 @@ const ProductDetails = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch("http://localhost:3000/animal.json",{cache:"no-store"})
+                const res = await fetch("https://b13-a08-chi.vercel.app/animal.json",{cache:"no-store"})
                 const data = await res.json();
                 const found = data.find(item => item.id.toString() === id);
                 setAnimal(found);

@@ -23,7 +23,7 @@ const fetchData = async () => {
 }
 
 const page  = async () => {
-  const data = await fetch("http://localhost:3000/animal.json",{cache:"no-store"})
+  const data = await fetch("https://b13-a08-chi.vercel.app/animal.json",{cache:"no-store"})
 
   const animal = await data.json()
   console.log(animal);

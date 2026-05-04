@@ -13,7 +13,7 @@ const AllAnimalsPage = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch("http://localhost:3000/animal.json",{cache:"no-store"})
+                const res = await fetch("https://b13-a08-chi.vercel.app/animal.json",{cache:"no-store"})
                 const data = await res.json();
                 setAnimals(data);
             } catch (error) {
