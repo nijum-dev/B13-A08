@@ -22,8 +22,7 @@ const page  = async () => {
       <Tips></Tips>
       <Breeds></Breeds>
       <BrowseAnimal></BrowseAnimal>
-       <Footer></Footer>
-      
+       <Footer></Footer>    
     </div>
   );
 };
